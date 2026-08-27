@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/pomodoro_red">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:text="@string/work_duration_label" android:textColor="@android:color/white" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:orientation="horizontal">
+            <Button android:id="@+id/buttonReduceWorkDuration" android:layout_width="56dp" android:layout_height="48dp" android:text="-" />
+            <TextView android:id="@+id/textViewWorkDuration" android:layout_width="96dp" android:layout_height="48dp" android:gravity="center" android:textColor="@android:color/white" android:textSize="18sp" />
+            <Button android:id="@+id/buttonAddWorkDuration" android:layout_width="56dp" android:layout_height="48dp" android:text="+" />
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/short_break_duration_label" android:textColor="@android:color/white" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:orientation="horizontal">
+            <Button android:id="@+id/buttonReduceShortBreakDuration" android:layout_width="56dp" android:layout_height="48dp" android:text="-" />
+            <TextView android:id="@+id/textViewShortDuration" android:layout_width="96dp" android:layout_height="48dp" android:gravity="center" android:textColor="@android:color/white" android:textSize="18sp" />
+            <Button android:id="@+id/buttonAddShortBreakDuration" android:layout_width="56dp" android:layout_height="48dp" android:text="+" />
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/long_break_duration_label" android:textColor="@android:color/white" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:orientation="horizontal">
+            <Button android:id="@+id/buttonReduceLongBreakDuration" android:layout_width="56dp" android:layout_height="48dp" android:text="-" />
+            <TextView android:id="@+id/textViewLongDuration" android:layout_width="96dp" android:layout_height="48dp" android:gravity="center" android:textColor="@android:color/white" android:textSize="18sp" />
+            <Button android:id="@+id/buttonAddLongBreakDuration" android:layout_width="56dp" android:layout_height="48dp" android:text="+" />
+        </LinearLayout>
+
+        <Button android:id="@+id/buttonReady" android:layout_width="280dp" android:layout_height="52dp" android:layout_marginTop="36dp" android:text="@string/ready" />
+    </LinearLayout>
+</ScrollView>

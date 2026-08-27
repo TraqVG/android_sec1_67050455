@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="title">Dice Roller</string>
+    <string name="roll">Roll</string>
+    <string name="rolled_value">You rolled %1$d</string>
+    <string name="dice_description">Dice showing %1$d</string>
+    <string name="dice_initial_description">Dice result</string>
+</resources>

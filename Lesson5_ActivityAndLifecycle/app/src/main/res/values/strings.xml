@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pomodoro</string>
+    <string name="work_duration_label">Work</string>
+    <string name="short_break_duration_label">Short Break</string>
+    <string name="long_break_duration_label">Long Break</string>
+    <string name="duration_value">%1$d min</string>
+    <string name="ready">READY</string>
+    <string name="time_value">%1$02d</string>
+    <string name="timer_config">Work %1$d min - Short %2$d min - Long %3$d min</string>
+</resources>

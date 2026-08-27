@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.Lesson5Pomodoro" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/pomodoro_red</item>
+        <item name="colorPrimaryDark">@color/pomodoro_red_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

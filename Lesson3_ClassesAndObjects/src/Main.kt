@@ -20,6 +20,7 @@ fun main() {
     buildAquarium()
     makeFish()
     makeDecorations()
+    demoPairsCollectionsAndExtensions()
 
     println(Direction.EAST.name)
     println(Direction.EAST.ordinal)
